@@ -14,6 +14,36 @@ body{
     background-color: white;
 }
 
+.nav{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_box{
+    border: 1px solid red;
+        width: 30%;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-evenly;
+}
+
+.links li {
+}
+
+.links li a{
+    text-decoration: none;
+}
+
+.logo{
+    width:80%
+}
+
 .second_section{
     width: 30%;
     background-color: purple;
